@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AC8D20081E9E56570031FAC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D20071E9E56570031FAC7 /* AppDelegate.swift */; };
-		AC8D200A1E9E56570031FAC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D20091E9E56570031FAC7 /* ViewController.swift */; };
 		AC8D200D1E9E56570031FAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8D200B1E9E56570031FAC7 /* Main.storyboard */; };
 		AC8D200F1E9E56570031FAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8D200E1E9E56570031FAC7 /* Assets.xcassets */; };
 		AC8D20121E9E56570031FAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8D20101E9E56570031FAC7 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		AC8D20041E9E56570031FAC7 /* DOUYUTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOUYUTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8D20071E9E56570031FAC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC8D20091E9E56570031FAC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC8D200C1E9E56570031FAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC8D200E1E9E56570031FAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC8D20111E9E56570031FAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +33,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC359EE71EA10477003A5F65 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				AC359EED1EA10477003A5F65 /* Tools */,
+				AC359EEB1EA10477003A5F65 /* Main */,
+				AC359EE91EA10477003A5F65 /* Home */,
+				AC359EEA1EA10477003A5F65 /* Live */,
+				AC359EE81EA10477003A5F65 /* Follow */,
+				AC359EEC1EA10477003A5F65 /* Profile */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		AC359EE81EA10477003A5F65 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		AC359EE91EA10477003A5F65 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AC359EEA1EA10477003A5F65 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		AC359EEB1EA10477003A5F65 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AC359EEC1EA10477003A5F65 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AC359EED1EA10477003A5F65 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		AC8D1FFB1E9E56560031FAC7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +107,8 @@
 		AC8D20061E9E56570031FAC7 /* DOUYUTV */ = {
 			isa = PBXGroup;
 			children = (
+				AC359EE71EA10477003A5F65 /* Class */,
 				AC8D20071E9E56570031FAC7 /* AppDelegate.swift */,
-				AC8D20091E9E56570031FAC7 /* ViewController.swift */,
 				AC8D200B1E9E56570031FAC7 /* Main.storyboard */,
 				AC8D200E1E9E56570031FAC7 /* Assets.xcassets */,
 				AC8D20101E9E56570031FAC7 /* LaunchScreen.storyboard */,
@@ -96,6 +149,7 @@
 				TargetAttributes = {
 					AC8D20031E9E56570031FAC7 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = BEGVJEYR5W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC8D200A1E9E56570031FAC7 /* ViewController.swift in Sources */,
 				AC8D20081E9E56570031FAC7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +314,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = BEGVJEYR5W;
 				INFOPLIST_FILE = DOUYUTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangxinwei.DOUYUTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +329,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = BEGVJEYR5W;
 				INFOPLIST_FILE = DOUYUTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangxinwei.DOUYUTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
